@@ -20,6 +20,7 @@ export function Sidebar() {
 
 function SidebarLink({ to, children }) {
   const { pathname } = useLocation();
+
   return (
     <li className={pathname === to ? "selected" : ""}>
       <Link to={to}>{children}</Link>
