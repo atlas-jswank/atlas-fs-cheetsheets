@@ -1,0 +1,17 @@
+.heading {
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background-image: url("@/assets/AtlasLogo.png");
+  background-size: 100px 100px;
+  transition: filter 300ms;
+  margin: 0 auto;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em var(--teal));
+}
